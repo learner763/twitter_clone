@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join X</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body{
+            margin: 0%;
+            background-color: black;
+            scroll-behavior: smooth;
+        }
+        .a{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            height: 100vh;
+            flex-wrap: wrap;
+        }
+        .a div{
+            flex: 1;
+            display: flex;
+            
+        }
+        .a1{
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .a2 label{
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .a2{
+            display: flex;
+            flex-direction: column;
+            height: 100%;   
+            justify-content: center;    
+        }
+        .a2 :first-child{
+            font-size: 40px;
+        }
+        .a2 :nth-child(2){
+            font-size: 24px;
+        }
+        .a2 :nth-child(4){
+            font-size: 18px;
+        }
+        .a2 button {
+            font-size: 18px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            width: 200px;
+            cursor: pointer;
+        }
+        .a2 :last-child{
+            color: rgba(0, 0, 255, 0.842);
+            background-color: white;
+        }
+        .a2 :nth-child(3){
+            color: white;
+            background-color: rgba(0, 0, 255, 0.842);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="a1">
+            <img src="x.png" alt="">
+        </div>
+        <div class="a2">
+            <label >Happening Now!</label>
+            <label >Join Today.</label>
+            <button>Create Account</button>
+            <label >Already have an account?</label>
+            <button>Sign In</button>
+
+        </div>
+
+    </div>
+</body>
+</html>
